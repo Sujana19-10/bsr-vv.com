@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College website</title> 
+    <link rel="stylesheet" href="wstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>  
+    <section class="sub-header">
+        <nav>
+            <a href="windex.html"><img src="wimages/VV%20LOGO.jpg"></a>
+            <h2>VISHWA <br> VISHWANI</h2>
+            
+        
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                 <li><a href="windex.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">COURSE</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>About Us</h1>
+    </section>
+    
+<!-- ---------------about us content---------------- -->
+    
+    <section class="about-us">
+               <div class="row">
+                      <div class="aboutcol">
+                             <h1>We Are The 3rd Largest Business School In South India</h1>
+                          <p>Vishwa Vishwani Institute of Systems and Management is one of the premier business schools in South India, promoted by Graham Bell Educational Academy, Hyderabad. Vishwa Vishwani is approved by All India Council for Technical Education (AICTE), New Delhi. It has been grooming aspiring students into budding managers for the last 24 years. All the Teaching Faculty at Vishwa Vishwani have both Industry and Academic experience. We believe in “Learning by Doing”. <br><br>
+
+The alumni of the Vishwa Vishwani have spread across the world handling diverse and challenging roles in the world of business and acting as our brand ambassadors. The flagship program of Vishwa Vishwani is its PGDM, which offers a wide range of specializations to suit the specific requirements of the Students with respect to their educational background and the industry potential. We invite students from various graduation courses like Commerce, Sciences, Engineering and Pharmaceutical to take up this program to enrich their career potential. The institute is spread across 15 acres with state of the art infrastructure. Vishwa Vishwani has rich industry affiliations to facilitate the students with their Internships and Final Placements. The Students of Vishwa Vishwani consistently prove their mettle in securing quality job offers with good salary packages.</p>
+                          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                   </div>
+                    <div class="aboutcol"></div>
+                   <img src="wimages/aboutus4.png"
+                   
+        </div>
+    </section>
+   
+    
+    
+    
+    <!-- -------------------footer------------------ -->
+    <section class="footer">
+           <h4>About Us</h4>
+        <p>Vishwa Vishwani Institute of Systems and Management is one of the premier business schools in South India, promoted by Graham Bell Educational Academy, Hyderabad. Vishwa Vishwani is approved by All India Council for Technical Education (AICTE), New Delhi. It has been grooming aspiring students into budding managers for the last 24 years. All the Teaching Faculty at Vishwa Vishwani have both Industry and Academic experience. We believe in “Learning by Doing”.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Designed & Developed with <i class="fa fa-heart-o" ></i> by <i class="fa fa-at" ></i> VVISM</p>
+    </section>
+    
+    
+    
+    
+    
+    
+
+    
+    
+   <!--   -------------JavaScript for Toggle Menu--------------  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    </script>
+</body>
+</html>
